@@ -7,7 +7,7 @@
             strikethrough: true,
             monospace: true,
             smiles: true,
-            html_content: true,
+            html_content: false,
             content: ''
         }, options);
 
