@@ -1,0 +1,18 @@
+{
+  "short_name": "Editor de texto para WhatsApp",
+  "name": "Editor de texto para WhatsApp",
+  "display": "standalone",
+  "icons": [
+      {
+          "src": "http://luizpicolo.com.br/conversa-com-um-clique/icon.png",
+          "type": "image/png",
+          "sizes": "192x192"
+      }
+  ],
+  "start_url": "/conversa-com-um-clique/",
+  "background_color": "#31BEA5",
+  "theme_color": "#31BEA5",
+  "url": "http://luizpicolo.com.br/conversa-com-um-clique/",
+  "lang": "pt-br",
+  "screenshots": []
+}
