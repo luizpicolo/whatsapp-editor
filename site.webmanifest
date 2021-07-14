@@ -4,15 +4,15 @@
   "display": "standalone",
   "icons": [
       {
-          "src": "http://luizpicolo.com.br/conversa-com-um-clique/icon.png",
+          "src": "http://luizpicolo.com.br/whatsapp-editor/icon_.png",
           "type": "image/png",
           "sizes": "192x192"
       }
   ],
-  "start_url": "/conversa-com-um-clique/",
+  "start_url": "/whatsapp-editor/",
   "background_color": "#31BEA5",
   "theme_color": "#31BEA5",
-  "url": "http://luizpicolo.com.br/conversa-com-um-clique/",
+  "url": "http://luizpicolo.com.br/whatsapp-editor/",
   "lang": "pt-br",
   "screenshots": []
 }

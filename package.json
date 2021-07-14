@@ -1,7 +1,7 @@
 {
-  "name": "ConverseComUmClique",
+  "name": "whatsappEditor",
   "version": "0.0.1",
-  "description": "Interface simplificada para acesso a função de conversa por meio de link",
+  "description": "Editor de texto online para WhatsApp",
   "keywords": "Whatsapp",
   "license": "MIT",
   "author": "Luiz Picolo",
