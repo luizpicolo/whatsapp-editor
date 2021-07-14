@@ -270,7 +270,7 @@ html, body {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   display: flex;
   justify-content: center;
   margin: 50px 0 0 0; 
@@ -283,11 +283,6 @@ h1, h3 {
   text-align: center;
   font-size: 24px;
   color: #f1f1f1;
-}
-
-h3 {
-  font-size: 15px;
-  margin: 15px 0 10px 0;
 }
 
 .logo {
@@ -320,32 +315,21 @@ a {
   font-size: 15px;
 }
 
-.link-wa {
-  text-align: center;
-}
-
-.display-none {
-  display: none;
-}
-
-label {
-  color: #f1f1f1;
-}
-
 #input-text, #output-text {
   width: 100%;
-  height: 255px;
+  min-height: 255px;
   font-size: 18px;
   border-radius: 2px;
   color: #4B4B4B;
   background: #f1f1f1;
   margin: 10px 0;
+  font-size: 1em;
 }
 
 #output-text {
   padding: 15px;
   border: 1px solid #f1f1f1;
-  background: #f1f1f1;
+  background: #e1ffc7;
 }
 
 button {
@@ -361,16 +345,7 @@ button {
 }
 
 footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
   width: 100%;
   color: #f1f1f1;
   text-align: center;
-}
-
-/* SweetAlert */
-.swal-button {
-  background-color: #41E675;
-  border: none;
 }
