@@ -291,11 +291,14 @@ h1, h3 {
 }
 
 .logo img {
-  width: 90px;
+  width: 200px;
+}
+
+main {
+  min-width: 990px;
 }
 
 main div.container {
-  width: 990px;
   display: flex;
   justify-content: center;
 }
@@ -348,4 +351,24 @@ footer {
   width: 100%;
   color: #f1f1f1;
   text-align: center;
+}
+
+@media screen and (max-width: 974px) {
+  body {
+    display: block;
+  }
+
+  main {
+    min-width: 90%;
+    margin: 0 6px;
+  }
+
+  main div.container {
+    display: block;
+  }
+
+  main section {
+    width: 100%;
+    margin: 0;
+  }
 }
