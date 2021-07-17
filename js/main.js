@@ -7,12 +7,12 @@ $(document).ready(function() {
     $('#output-text').html(input.getFormattedContent());
   });
 
-  $(document).on('click', '#output-text', function() {
-    var $temp = $("<input>");
-    $("body").append($temp);
-    $temp.val($('#output-text').text()).select();
-    document.execCommand("copy");
-    $temp.remove();
-    alert('Copiado')
-  });
+  // $(document).on('click', '#output-text', function() {
+  //   var $temp = $("<textarea>");
+  //   $("body").append($temp);
+  //   $temp.val($('#output-text').text()).select();
+  //   document.execCommand("copy");
+  //   $temp.remove();
+  //   alert('Copiado')
+  // });
 })

@@ -291,11 +291,11 @@ h1, h3 {
 }
 
 .logo img {
-  width: 200px;
+  width: 90px;
 }
 
 main {
-  min-width: 990px;
+  width: 990px;
 }
 
 main div.container {
